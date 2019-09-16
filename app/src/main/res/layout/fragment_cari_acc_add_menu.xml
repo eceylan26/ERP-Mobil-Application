@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ersinceylan.myapplication.CariAccEditMenu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center"
+            android:weightSum="1">
+
+
+            <EditText
+
+                android:padding="10dp"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:ems="10"
+                android:textColor="#fff"
+                android:hint="İsim"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp" />
+
+
+            <EditText
+                android:id="@+id/titleEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:ems="10"
+                android:hint="Ünvan"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#fff" />
+
+
+            <EditText
+                android:padding="10dp"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:id="@+id/mevzuatEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:ems="10"
+                android:textColor="#fff"
+                android:hint="Mevzuat"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp" />
+
+
+            <EditText
+                android:padding="10dp"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:id="@+id/kodEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:ems="10"
+                android:textColor="#fff"
+                android:hint="Kod"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:id="@+id/addCompanyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#27408B"
+                android:textColor="#fff"
+                android:text="   ŞİRKET EKLE   " />
+
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

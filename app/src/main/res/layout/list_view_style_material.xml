@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="horizontal"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/styleKodMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="50"
+        android:textStyle="bold"
+        android:dividerHeight="0.5px"
+        android:background="@drawable/shape"
+        android:textColor="#424242"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/styleAciklamaMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="50"
+        android:textStyle="bold"
+        android:textColor="#424242"
+        android:gravity="center"
+        android:dividerHeight="0.5px"
+        android:background="@drawable/shape"/>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Tables">
+        <menu>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Cari Hesaplar" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Malzeme Listesi" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="Fatura Listesi" />
+        </menu>
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ersinceylan.myapplication.CariAccEditMenu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <EditText
+                android:padding="10dp"
+                android:background="#00ACC1"
+                android:layout_gravity="center"
+                android:id="@+id/editCariIsim"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:ems="10"
+                android:textColor="#fff"
+                android:hint="İsim"
+                android:textColorHint="#757575"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:padding="10dp"
+                android:background="#00ACC1"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:hint="Ünvan"
+                android:id="@+id/editCariUnvan"
+                android:layout_width="match_parent"
+                android:textColorHint="#757575"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:padding="10dp"
+                android:background="#00ACC1"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:hint="Açıklama"
+                android:id="@+id/editCariAciklama"
+                android:layout_width="match_parent"
+                android:textColorHint="#757575"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:padding="10dp"
+                android:background="#00ACC1"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:hint="Kod"
+                android:id="@+id/editCariKod"
+                android:layout_width="match_parent"
+                android:textColorHint="#757575"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#27408B"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="   EDIT MATERIAL   " />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/social_floating_menu_cari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginRight="11dp"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="#da3c2f"
+        fab:menu_colorPressed="#dc4b3f"
+        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_labels_colorNormal="#333"
+        fab:menu_labels_colorPressed="#444"
+        fab:menu_labels_colorRipple="#66efecec"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#f2f1f1"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#000"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/backButtonEditCari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backbutton"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/cariEditBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bill"
+            fab:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>
